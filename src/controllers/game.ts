@@ -5,7 +5,9 @@ import {
     insertGame,
     setCurrentActiveQuestion,
     setCurrentActivePlayer,
-    setAnswer, correctAnswer, incorrectAnswer
+    setAnswer,
+    correctAnswer,
+    incorrectAnswer
 } from "../models/game";
 
 export const getGames = async (req: Request, res: Response): Promise<void> => {
